@@ -3,7 +3,7 @@ Edwin Borbollón Peralta
 17 de Febrero de 2026
 
 
-# Resumen de etiquetas HTML usadas en el formulario:
+<!-- Resumen de etiquetas HTML usadas en el formulario:
 
 <html>, <head>, <meta>, <title>, <link>, <body>: estructura básica del documento.
 
@@ -24,3 +24,4 @@ Edwin Borbollón Peralta
 <button>: botones de envío y reinicio.
 
 <br>: saltos de línea para separación visual.
+>
