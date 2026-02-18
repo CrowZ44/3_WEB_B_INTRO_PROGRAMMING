@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" href="./img/icono.png">
+</head>
+
+<body>
+    <h1>Formulario de Inscripcion</h1>
+
+    <form>
+        <div>
+            <label for="">First Name: </label>
+            <input type="text" name="firstName" id="firstName" placeholder="Nombre">
+        </div>
+        <br>
+        <div>
+            <label for="lastName">Last Name: </label>
+            <input type="text" name="lastName" id="lastName" placeholder="Apellido">
+        </div>
+        <br>
+        <div>
+            <label for="genero">Genero</label>
+            <input type="radio" name="genero" id="genero-masculino" value="masculino">
+            <label for="genero-masculino">Masculino</label>
+            <input type="radio" name="genero" id="genero-femenino" value="femenino">
+            <label for="genero-femenino">Femenino</label>
+            <input type="radio" name="genero" id="genero-otro" value="otro">
+            <label for="genero-otro">Otro</label>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="example@example.com">
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone: </label>
+            <input type="tel" name="phone" id="phone" placeholder="1234567890">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="Contraseña">
+        </div>
+        <br>
+        <div>
+            <label for="country">Country: </label>
+            <select name="country" id="country">
+                <option value="" selected>Select a country</option>
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="mexico">Mexico</option>
+                <option value="españa">España</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="message"> Message: </label>
+            <br>
+            <textarea 
+            name="message" 
+            id="message" 
+            placeholder="Escribe tu mensaje aquí..."
+            cols="35"
+            rows="6"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="foto">Foto de perfil:</label>
+            <input type="file" name="foto" id="foto" accept="image/*">
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">I agree to the terms and conditions</label>
+        </div>
+        <br>
+        <div>
+            <button type="submit" onclick="alert('Formulario enviado!')">Sign Up</button>
+            <button type="reset">Reset Form</button>
+        </div>
+    </form>
+</body>
+
+</html>
